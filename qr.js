@@ -249,7 +249,7 @@ SESSION-ID ==> ${Scan_Id}
 
               await delay(5000);
 
-              exec('pm2 restart qasim');
+              exec('pm2 restart tohid');
 
               process.exit(0)
 
@@ -269,7 +269,7 @@ SESSION-ID ==> ${Scan_Id}
 
         console.log(err);
 
-        exec('pm2 restart qasim');
+        exec('pm2 restart tohid');
 
        await fs.emptyDirSync(__dirname+'/auth_info_baileys'); 
 
@@ -285,7 +285,7 @@ SESSION-ID ==> ${Scan_Id}
 
     await fs.emptyDirSync(__dirname+'/auth_info_baileys'); 
 
-    exec('pm2 restart qasim');
+    exec('pm2 restart tohid');
 
 
 
