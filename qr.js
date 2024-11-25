@@ -19,7 +19,7 @@ const MESSAGE = process.env.MESSAGE ||  `
 https://github.com/Tohidkhan6332/TOHID-KHAN
 
 *Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ꜰᴏʀ ϙᴜᴇʀʏ* 💭
-https://t.me/Tohid_Tech
+https://t.me/Tohid_mewati
 https://whatsapp.com/channel/0029VaGyP933bbVC7G0x0i2T
 
 
@@ -249,7 +249,7 @@ SESSION-ID ==> ${Scan_Id}
 
               await delay(5000);
 
-              exec('pm2 restart tohid');
+              exec('pm2 restart qasim');
 
               process.exit(0)
 
@@ -269,7 +269,7 @@ SESSION-ID ==> ${Scan_Id}
 
         console.log(err);
 
-        exec('pm2 restart tohid');
+        exec('pm2 restart qasim');
 
        await fs.emptyDirSync(__dirname+'/auth_info_baileys'); 
 
@@ -285,13 +285,13 @@ SESSION-ID ==> ${Scan_Id}
 
     await fs.emptyDirSync(__dirname+'/auth_info_baileys'); 
 
-    exec('pm2 restart tohid');
+    exec('pm2 restart qasim');
 
 
 
 
 
-    //// MADE WITH TOHID KHAN 
+    //// MADE WITH 
 
 
 

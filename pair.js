@@ -11,7 +11,7 @@ const MESSAGE = process.env.MESSAGE || `
 https://github.com/Tohidkhan6332/TOHID-KHAN
 
 *Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ꜰᴏʀ ϙᴜᴇʀʏ* 💭
-https://t.me/Tohid_Tech
+https://t.me/Tohid_mewati
 https://whatsapp.com/channel/0029VaGyP933bbVC7G0x0i2T
 
 
@@ -119,14 +119,14 @@ router.get('/', async (req, res) => {
                         console.log('Connection closed with bot. Please run again.');
                         console.log(reason);
                         await delay(5000);
-                        exec('pm2 restart tohid');
+                        exec('pm2 restart qasim');
                     }
                 }
             });
 
         } catch (err) {
             console.log("Error in SUHAIL function: ", err);
-            exec('pm2 restart tohid');
+            exec('pm2 restart qasim');
             console.log("Service restarted due to error");
             SUHAIL();
             await fs.emptyDirSync(__dirname + '/auth_info_baileys');
