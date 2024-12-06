@@ -5,9 +5,9 @@
   "description": "A multi-functional WhatsApp bot Web QR Scanner.",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name tohid",
-    "stop": "pm2 stop tohid",
-    "restart": "pm2 restart tohid",
+    "start": "pm2 start index.js --deep-monitoring --attach --name qasim",
+    "stop": "pm2 stop qasim",
+    "restart": "pm2 restart qasim",
     "dev": "nodemon index.js"
   },
   "keywords": [
@@ -15,7 +15,7 @@
     "whatsappMdLogin", "adiwajshing/baileys", "baileys-md-qr", "multi-device-qr",
     "md-qr", "bot-qr", "baileysQrScanner", "wabot"
   ],
-  "author": "TohidTech",
+  "author": "GlobalTechInfo",
   "license": "MIT",
   "dependencies": {
     "@hapi/boom": "^10.0.1",

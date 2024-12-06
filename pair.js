@@ -119,14 +119,14 @@ router.get('/', async (req, res) => {
                         console.log('Connection closed with bot. Please run again.');
                         console.log(reason);
                         await delay(5000);
-                        exec('pm2 restart tohid');
+                        exec('pm2 restart qasim');
                     }
                 }
             });
 
         } catch (err) {
             console.log("Error in SUHAIL function: ", err);
-            exec('pm2 restart tohid');
+            exec('pm2 restart qasim');
             console.log("Service restarted due to error");
             SUHAIL();
             await fs.emptyDirSync(__dirname + '/auth_info_baileys');
